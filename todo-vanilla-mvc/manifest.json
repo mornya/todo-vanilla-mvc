@@ -1,0 +1,13 @@
+{
+  "name": "Todo Vanilla/MVC",
+  "short_name": "Todo",
+  "description": "Todo Vanilla/MVC",
+  "lang": "ko",
+  "display": "fullscreen",
+  "start_url": "/?source=pwa",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "scope": "/",
+  "orientation": "portrait",
+  "icons": []
+}
