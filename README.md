@@ -1,5 +1,9 @@
 # Todo Vanilla/MVC
 
+## About
+Todo 앱 MVC 및 바닐라스크립트로 구현
+> URL: https://mornya.github.io/todo-vanilla-mvc/
+
 ## Project Setup
 린트/테스트를 수행하기 위해 lintest 라는 개발도구를 사용하였으므로 글로벌 영역에 설치해주세요.
 ```bash
@@ -26,18 +30,18 @@ $ npm start
 ├── src                     # 앱 소스 디렉토리
 │   ├── assets              # 번들링 될 리소스들의 디렉토리
 │   │   ├── images          # 앱 내 사용될 이미지들
-│   │   ├── app.scss        # 앱 전체 스타일
+│   │   └── app.scss        # 앱 전체 스타일
 │   ├── components          # 각 역할별 코드 디렉토리
 │   │   ├── Controller.ts   # 액션 컨트롤 담당
 │   │   ├── Model.ts        # 데이터 모델 담당
-│   │   ├── View.ts         # 유저 뷰 컨트롤 담당
+│   │   └── View.ts         # 유저 뷰 컨트롤 담당
 │   ├── utils               # 도구 객체 디렉토리
 │   │   ├── helper.ts       # 유틸리티성 코드
 │   │   ├── Observer.ts     # 메시지 처리를 위한 메인 옵져버
-│   │   ├── Store.ts        # 스토리지 I/O 담당
-│   ├── index.ts            # 앱 엔트리
+│   │   └── Store.ts        # 스토리지 I/O 담당
+│   └── index.ts            # 앱 엔트리
 ├── test                    # 테스트케이스 디렉토리
-│   ├── helper.test.ts      # helper 모듈 테스트케이스
+│   └── helper.test.ts      # helper 모듈 테스트케이스
 ├── types                   # 앱 전체 참조 타입 정의 디렉토리
 ├── .eslintignore           # ESLint 검사 미대상 파일 목록 정의
 ├── .eslintrc               # ESLint 룰셋 설정
@@ -53,7 +57,7 @@ $ npm start
 ├── tsconfig.json           # 앱 타입스크립트 설정 (기본 확장)
 ├── tsconfig-cli.json       # CLI 전용 타입스크립트 설정 (기본 확장)
 ├── tsconfig-default.json   # 기본 타입스크립트 설정
-├── webpack.config.ts       # webpack 설정
+└── webpack.config.ts       # webpack 설정
 ```
 
 ### 빌드환경 구성
@@ -168,3 +172,6 @@ Lintest CLI를 실행하여 테스트 커버리지 데이터를 수집하여 `/c
 $ npm run test:coverage
 $ lintest test --coverage
 ```
+
+## License
+프로젝트 라이센스는 [LICENSE](LICENSE) 파일 참조.
